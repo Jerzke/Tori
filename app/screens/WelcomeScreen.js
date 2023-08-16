@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     logoContainer:{
         position: "absolute",
         top: 70,
-        alignItems: "center",
+        alignItems: "center",  
     }, 
     tagLine:{
         fontSize: 25,
