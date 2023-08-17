@@ -1,14 +1,11 @@
-import { View } from 'react-native';
-import ViewImageScreen from './app/screens/ViewImageScreen';
-import WelcomeScreen from './app/screens/WelcomeScreen';
-import AppButton from './app/components/AppButton'
+import React from "react";
 
-import Card from './app/components/Card';
-import ListingDetailsScreen from './app/screens/ListingDetailsScreen';
+import Screen from "./app/components/Screen";
+import Icon from "./app/components/Icon";
+import ListItem from "./app/components/ListItem";
+import AccountScreen from "./app/screens/AccountScreen";
+import ListingsScreen from "./app/screens/ListingsScreen";
 
 export default function App() {
-    
-  return (
-   <ViewImageScreen/>
-  );
+  return <AccountScreen />;
 }
